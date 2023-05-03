@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        @media screen and (orientation:portrait){
+            header{
+            border: 2px solid black;
+            height: 70px;
+            width: 100%;
+            background-color:antiquewhite;
+            display: flex;
+            justify-content: space-between;
+        }
+            .header_div_1{
+            border: 1px solid black;
+            height: 60px;
+            width: 120px;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header_div_2{
+            border: 1px solid black;
+            height: 60px;
+            width: 80px;
+            margin: 9px;
+            margin: 5px;
+        }
+        #gupta{
+            height: 60px;
+        }
+        .header_div_3{
+            border: 1px solid black;
+            height: 60px;
+            width: 132px;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            border: 2px solid black;
+            height: 50px;
+            width: 100%;
+            background-color:antiquewhite;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav_div_1{
+            border: 1px solid black;
+            background-color: rgb(194, 84, 84);
+            height: 40px;
+            width: 190px;
+           margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav_div_2{
+            border: 1px solid black;
+            background-color: rgb(194, 84, 84);
+            height: 40px;
+            width: 231px;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header-below{
+            border:2px solid black ;
+            height: 200px;
+            width: 100%;
+        }
+        #gan{
+            height: 200px;
+        }
+        @keyframes slideup{
+            from {
+                margin-top: 300px;
+                opacity: 0;
+            }
+            to {
+                margin-top: 0px;
+            }
+           
+        }
+        #gan{
+                    animation-name: slideup;
+                    animation-duration:2s;
+                    animation-iteration-count:calc(1);
+                    
+            }
+            .nav_1_inner_1{
+              
+                background-color:antiquewhite;
+                height: 35px;
+                width: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .nav_1_inner_2{
+            
+                background-color:antiquewhite;
+                height: 35px;
+                width: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .nav_1_inner_3{
+              
+                background-color:antiquewhite;
+                height: 35px;
+                width: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .nav_2_inner_1{
+                
+                background-color:antiquewhite;
+                width: 48px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .nav_2_inner_2{
+               
+                width: 120px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .area{
+                width: 110px;
+                height: 30px;
+            }
+            #h4{
+                font-size: 10px;
+            }
+            #h3{
+                font-size: 13px;
+            }
+           #customer{
+                font-size: 10PX;
+           }
+             #section_3{
+            width: 100%;
+            height: 200px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(194, 84, 84);
+             }
+            #section_3_sub{
+            border: 1px solid black;
+            width: 97%;
+            height: 180px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+           
+             }
+             #section_3_div_1{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("paan8.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+              }
+             #section_3_div_2{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("coconut_paan.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+             }
+            #section_4{
+            width: 100%;
+            height: 200px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           background-color: rgb(194, 84, 84);
+        }
+        #section_4_sub{
+            border: 1px solid black;
+            width: 97%;
+            height: 180px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        #section_4_div_1{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("paan5.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #section_4_div_2{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("paan6.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #customer{
+            font-size: 15px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        #section_5{
+            width: 100%;
+            height: 200px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(194, 84, 84);
+             }
+            #section_5_sub{
+            border: 1px solid black;
+            width: 97%;
+            height: 180px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+           
+             }
+             #section_5_div_1{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("chocolate_paan.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+              }
+             #section_5_div_2{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("choco_paan.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+             }
+             #section_6{
+            width: 100%;
+            height: 200px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(194, 84, 84);
+             }
+            #section_6_sub{
+            border: 1px solid black;
+            width: 97%;
+            height: 180px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+           
+             }
+             #section_6_div_1{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("paan_rool_1.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+              }
+             #section_6_div_2{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("paan_rool_2.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+             }
+             #section_7{
+            width: 100%;
+            height: 200px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(194, 84, 84);
+             }
+            #section_7_sub{
+            border: 1px solid black;
+            width: 97%;
+            height: 180px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+           
+             }
+             #section_7_div_1{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("paan\ ladoo_1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+              }
+             #section_7_div_2{
+            border: 1px solid black;
+            width: 49%;
+            height: 179px;
+            background-image: url("paan\ ladoo_2.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+             }
+             #see_more{
+                font-size: 12px;
+                margin-top: 12px;
+                word-spacing: 5px;
+                text-align: center;
+
+             }
+             #click_me{
+                font-size: 13px;
+                margin-top: 12px;
+                margin-left: 5px;
+                word-spacing: 5px;
+                text-align: center;
+            }
+            #click{
+                text-decoration: none;
+            }
+            #click:hover{
+                text-decoration: underline;
+            }
+           
+        
+        
+        
+        
+        
+        }
+
+        
+
+        @media screen and (orientation:landscape){
+            header{
+            border: 2px solid black;
+            height: 81px;
+            width: 100%;
+            background-color:antiquewhite;
+            display: flex;
+            justify-content: space-between;
+        }
+            .header_div_1{
+            border: 1px solid black;
+            font-size: 25px;
+            height: 70px;
+            width: 200px;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 15px;
+        }
+            .header_div_2{
+            border: 1px solid black;
+            height: 70px;
+            width: 250px;
+            margin: 9px;
+            margin: 5px;
+        }
+       
+        #gupta{
+            height: 70px;
+        }
+        .header_div_3{
+            border: 1px solid black;
+            font-size: 20px;
+            height: 70px;
+            width: 200px;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            border: 2px solid black;
+            height: 50px;
+            width: 100%;
+            background-color:antiquewhite;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav_div_1{
+            border: 1px solid black;
+            height: 40px;
+            width: 280px;
+           margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: maroon;
+            
+        }
+        .nav_div_2{
+            border: 1px solid black;
+            height: 40px;
+            width: 450px;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: maroon;
+        }
+        .header-below{
+            border:2px solid black ;
+            height: 250px;
+            width: 100%;
+        }
+        #gan{
+            height: 250px;
+        }
+        @keyframes slideup {
+            from {
+                margin-top: 300px;
+                opacity: 0;
+            }
+            to {
+                margin-top: 0px;
+            }
+            
+        }
+        #gan{
+            animation-name:slideup;
+            animation-duration: 2s;
+           
+        }
+        .nav_1_inner_1{
+            border: 1px solid black;
+            width: 100px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+        .nav_1_inner_2{
+            border: 1px solid black;
+            width: 100px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+        .nav_1_inner_3{
+            border: 1px solid black;
+            width: 120px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+        #h4{
+            letter-spacing: 1px;
+           
+        }
+        #a{
+            text-decoration: none;
+        }
+        #a:hover{
+            text-decoration: underline;
+        }
+        .nav_2_inner_1{
+            border: 1px solid black;
+            height: 35px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+        .nav_2_inner_2{
+            border: 1px solid black;
+            height: 35px;
+            width: 400px;
+            background-color: antiquewhite;
+        }
+        #h3{
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+        .area{
+            width: 350px;
+            height: 30px;
+        }
+        #section_3{
+            width: 100%;
+            height: 250px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+        #section_3_sub{
+            border: 1px solid black;
+            width: 97%;
+            height: 240px;
+            background-color: rgb(194, 84, 84);
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        #section_3_div_1{
+            border: 1px solid black;
+            width: 49%;
+            height: 239px;
+            background-image: url("paan8.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #section_3_div_2{
+            border: 1px solid black;
+            width: 49%;
+            height: 239px;
+            background-image: url("coconut_paan.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       
+        #customer{
+            font-size: 25px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        #section_4{
+            width: 100%;
+            height: 250px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+        #section_4_sub{
+            border: 1px solid black;
+            width: 97%;
+            height: 240px;
+            background-color: rgb(194, 84, 84);
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        #section_4_div_1{
+            border: 1px solid black;
+            width: 49%;
+            height: 239px;
+            background-image: url("paan10.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #section_4_div_2{
+            border: 1px solid black;
+            width: 49%;
+            height: 239px;
+            background-image: url("paan6.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #customer{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        #section_5{
+            width: 100%;
+            height: 250px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(194, 84, 84);
+             }
+            #section_5_sub{
+            border: 1px solid black;
+            width: 97%;
+            height: 240px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+           
+             }
+             #section_5_div_1{
+            border: 1px solid black;
+            width: 49%;
+            height: 239px;
+            background-image: url("chocolate_paan.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+              }
+             #section_5_div_2{
+            border: 1px solid black;
+            width: 49%;
+            height: 239px;
+            background-image: url("choco_paan.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+             }
+             #section_6{
+            width: 100%;
+            height: 250px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(194, 84, 84);
+             }
+            #section_6_sub{
+            border: 1px solid black;
+            width: 97%;
+            height: 240px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+           
+             }
+             #section_6_div_1{
+            border: 1px solid black;
+            width: 49%;
+            height: 239px;
+            background-image: url("paan_rool_1.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+              }
+             #section_6_div_2{
+            border: 1px solid black;
+            width: 49%;
+            height: 239px;
+            background-image: url("paan_rool_2.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+             }
+             #see_more{
+                font-size: 25px;
+                margin-top: 5px;
+                margin-left: 5px;
+                word-spacing: 5px;
+                text-align: center;
+
+             }
+             #click_me{
+                font-size: 25px;
+                margin-top: 2px;
+                margin-left: 5px;
+                word-spacing: 5px;
+                text-align: center;
+            }
+            #click{
+                text-decoration: none;
+            }
+            #click:hover{
+                text-decoration: underline;
+            }
+            
+      
+    
+    
+    
+    }
+   #section_about{
+        border: 2px solid black;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(194, 84, 84);
+   }
+   #section_about_div_1{
+        border: 2px solid black;
+        height: 170px;
+        width: 97%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+   }
+   #section_about_div_2{
+        border: 2px solid black;
+        height: 150px;
+        width: 96%;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+       
+       
+       
+   }
+   #section_about_div_3{
+        text-align: center;
+   }
+   #section_2{
+        border: 2px solid black;
+        background-color: rgb(194, 84, 84);
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+
+   }
+   #section_2_div_1{
+        background-color: antiquewhite;
+        height: 40px;
+        width: 90%;
+        text-align: center;
+   }
+   #section_8{
+                width: 100%;
+                height: 50px;
+                border: 1px solid black;
+                background-color: rgb(194, 84, 84);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             }
+          
+            #section_8_sub{
+                width: 97%;
+                height: 40px;
+                border: 1px solid black;
+                background-color:antiquewhite;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+            }
+            #section_8_div_1{
+                width: 49%;
+                height: 35px;
+                border: 1px solid black;
+            }
+            #section_8_div_2{
+                width: 49%;
+                height: 35px;
+                border: 1px solid black;
+            }
+         #our_more_items{
+        border: 2px solid black;
+        background-color: rgb(194, 84, 84);
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+   }
+   #our_more_items_1{
+        background-color: antiquewhite;
+        height: 40px;
+        width: 97%;
+        text-align: center;
+   }
+
+  
+    </style>
+    <script>
+        function watch(){
+            var date = new Date();
+            document.getElementById("time").innerHTML=date.toLocaleTimeString();
+
+        }
+     function bodyload(){
+       setInterval(watch,1000);
+     }
+    </script>
+</head>
+<body onload="bodyload()">
+   <header>
+    <div class="header_div_1">
+        <h2>SHOP</h2>
+    </div>
+
+    <div class="header_div_2">
+        <img id="gupta" src="./gupta.png" width="100%" >
+    </div>
+
+    <div class="header_div_3">
+        <h2 id="time"></h2>
+    </div>
+   </header>  
+   <div class="header-below">
+        <img id="gan" src="./gupta.png" width="100%">
+   </div>
+   <nav>
+        <div class="nav_div_1">
+            <div class="nav_1_inner_1">
+                <h4 id="h4"><a id="a" href="#"> HOME.</a></h4>
+            </div>
+            <div class="nav_1_inner_2">
+                <h4 id="h4"><a id="a" href="#"> ABOUT.</a></h4>
+            </div>
+            <div class="nav_1_inner_3">
+                <h4 id="h4"><a id="a" href="#"> CONTACT.</a></h4>
+            </div>
+        </div>
+
+        <div class="nav_div_2">
+            <div class="nav_2_inner_1">
+                <h3 id="h3">Search</h3>
+            </div>
+            <div class="nav_2_inner_2">
+                <input  class="area" type="text" placeholder="Search Here">
+            </div>
+        </div>
+   </nav> 
+   <br>
+   <hr>
+   <br>
+   <section id="section_2">
+    <div id="section_2_div_1">
+        <P style="font-family:Verdana,sans-seri ;" id="customer"><marquee behavior="alternate">Our Customer's  Most Favourable "Item's" </marquee></P>
+    </div>
+</section> 
+<hr>
+<section id="section_3">
+    <section id="section_3_sub">
+        <div id="section_3_div_1">
+    
+        </div>
+        <div id="section_3_div_2">
+    
+        </div>
+    </section>
+</section>
+
+   <hr>
+   
+   <section id="section_4">
+    <section id="section_4_sub">
+        <div id="section_4_div_1">
+    
+        </div>
+        <div id="section_4_div_2">
+    
+        </div>
+    </section>
+</section>
+<hr>
+<section id="section_5">
+    <section id="section_5_sub">
+        <div id="section_5_div_1">
+    
+        </div>
+        <div id="section_5_div_2">
+    
+        </div>
+    </section>
+</section>
+<hr>
+<section id="section_6">
+    <section id="section_6_sub">
+        <div id="section_6_div_1">
+    
+        </div>
+        <div id="section_6_div_2">
+    
+        </div>
+    </section>
+</section>
+<hr>
+<section id="section_7">
+    <section id="section_7_sub">
+        <div id="section_7_div_1">
+    
+        </div>
+        <div id="section_7_div_2">
+    
+        </div>
+    </section>
+</section>
+<hr>
+<section id="our_more_items">
+    <div id="our_more_items_1">
+        <P style="font-family:Verdana,sans-seri ;" id="customer"><marquee behavior="alternate">Want's To See Our More "Item's" </marquee></P>
+    </div>
+</section> 
+
+<section id="section_8">
+    <section id="section_8_sub">
+        <div id="section_8_div_1">
+            <p id="see_more">" To See Our More Items...."</p>
+        </div>
+        <div id="section_8_div_2">
+           <p id="click_me"> <a id="click" title="click me" href="_blank">Click me to see more....</a></p>
+        </div>
+    </section>
+</section>
+<hr>
+
+   <section id="section_about">
+        <div id="section_about_div_1">
+            <div  id="section_about_div_2">
+                <div id="section_about_div_3">
+                    <h2>About us</h2>
+                    <h4>"We Are serving our best quality since before 40<sup>th </sup>&nbsp;years." </h4>
+                    <h5></h5>
+                </div>
+          
+              </div>
+        </div>
+   </section>
+   <br>
+   <hr>
+   <br>
+  
+</body>
+</html>
